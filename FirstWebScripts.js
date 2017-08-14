@@ -1,0 +1,133 @@
+$(document).ready(function(){
+	$(".dark-souls").hide();
+	$(".splatoon2").hide();
+	$(".battlegrounds").hide();
+	$(".robo-recall").hide();
+	$(".rocket-league").hide();
+	$(".counter-strike").hide();
+	$(".just-cause3").hide();
+	$(".doom").hide();
+	$(".stellaris").hide();
+	$(".gigantic").hide();
+		
+	$(".dark-grid").click(function() {
+		$(".dark-souls").show();
+		$(".gigantic").hide();
+		$(".splatoon2").hide();
+		$(".battlegrounds").hide();
+		$(".robo-recall").hide();
+		$(".rocket-league").hide();
+		$(".counter-strike").hide();
+		$(".just-cause3").hide();
+		$(".doom").hide();
+		$(".stellaris").hide();
+	});
+	$(".gigant-grid").click(function() {
+		$(".gigantic").show();
+		$(".dark-souls").hide();
+		$(".splatoon2").hide();
+		$(".battlegrounds").hide();
+		$(".robo-recall").hide();
+		$(".rocket-league").hide();
+		$(".counter-strike").hide();
+		$(".just-cause3").hide();
+		$(".doom").hide();
+		$(".stellaris").hide();
+	});
+	$(".splat-grid").click(function() {
+		$(".splatoon2").show();
+		$(".gigantic").hide();
+		$(".dark-souls").hide();
+		$(".battlegrounds").hide();
+		$(".robo-recall").hide();
+		$(".rocket-league").hide();
+		$(".counter-strike").hide();
+		$(".just-cause3").hide();
+		$(".doom").hide();
+		$(".stellaris").hide();
+	});
+	$(".battle-grid").click(function() {
+		$(".battlegrounds").show();
+		$(".gigantic").hide();
+		$(".splatoon2").hide();
+		$(".dark-souls").hide();
+		$(".robo-recall").hide();
+		$(".rocket-league").hide();
+		$(".counter-strike").hide();
+		$(".just-cause3").hide();
+		$(".doom").hide();
+		$(".stellaris").hide();
+	});
+	$(".robo-grid").click(function() {
+		$(".robo-recall").show();
+		$(".gigantic").hide();
+		$(".splatoon2").hide();
+		$(".battlegrounds").hide();
+		$(".dark-souls").hide();
+		$(".rocket-league").hide();
+		$(".counter-strike").hide();
+		$(".just-cause3").hide();
+		$(".doom").hide();
+		$(".stellaris").hide();
+	});
+	$(".rocket-grid").click(function() {
+		$(".rocket-league").show();
+		$(".gigantic").hide();
+		$(".splatoon2").hide();
+		$(".battlegrounds").hide();
+		$(".robo-recall").hide();
+		$(".dark-souls").hide();
+		$(".counter-strike").hide();
+		$(".just-cause3").hide();
+		$(".doom").hide();
+		$(".stellaris").hide();
+	});
+	$(".counter-grid").click(function() {
+		$(".counter-strike").show();
+		$(".gigantic").hide();
+		$(".splatoon2").hide();
+		$(".battlegrounds").hide();
+		$(".dark-souls").hide();
+		$(".rocket-league").hide();
+		$(".robo-recall").hide();
+		$(".just-cause3").hide();
+		$(".doom").hide();
+		$(".stellaris").hide();
+	});
+	$(".just-grid").click(function() {
+		$(".just-cause3").show();
+		$(".gigantic").hide();
+		$(".splatoon2").hide();
+		$(".battlegrounds").hide();
+		$(".dark-souls").hide();
+		$(".rocket-league").hide();
+		$(".counter-strike").hide();
+		$(".robo-recall").hide();
+		$(".doom").hide();
+		$(".stellaris").hide();
+	});
+	$(".doom-grid").click(function() {
+		$(".doom").show();
+		$(".gigantic").hide();
+		$(".splatoon2").hide();
+		$(".battlegrounds").hide();
+		$(".dark-souls").hide();
+		$(".rocket-league").hide();
+		$(".counter-strike").hide();
+		$(".just-cause3").hide();
+		$(".robo-recall").hide();
+		$(".stellaris").hide();
+	});
+	$(".stell-grid").click(function() {
+		$(".stellaris").show();
+		$(".gigantic").hide();
+		$(".splatoon2").hide();
+		$(".battlegrounds").hide();
+		$(".dark-souls").hide();
+		$(".rocket-league").hide();
+		$(".counter-strike").hide();
+		$(".just-cause3").hide();
+		$(".doom").hide();
+		$(".robo-recall").hide();
+	});
+});
