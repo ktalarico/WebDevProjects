@@ -1,0 +1,37 @@
+.bg-gray {
+	background-color: #1a1a1a;
+}
+
+.bg-dark-gray {
+	background-color: #363636;
+}
+
+.bg-green {
+	background-color: #229954;
+}
+
+.navbar > .container-fluid > .navbar-nav > li.active > a{
+	background-color: #1E8449;
+	
+}
+
+.navbar > .container-fluid > .navbar-nav > li > a {
+	color: white;
+}
+.navbar > .container-fluid > .navbar-nav > li > a:hover {
+	color: dimgray;
+}
+
+.container > .row > .col-md-6 > .carousel > .carousel-inner > .item > .carousel-caption > h2{
+	background-color: #229954;
+	border-radius: 5px;
+}
+
+.panel > .panel-body > a{
+	text-decoration: none;
+	font-size: 20px;
+	background-color: #229954;
+	padding: 8px 16px;
+	border-radius: 5px;
+	color: white;
+}

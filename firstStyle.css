@@ -30,12 +30,14 @@
 .header ul {
 	
 	list-style-type: None;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 	background-color: #229954;
 	
 }
 .header li{
-	display: inline;
-	float: right;
+	float: left;
 }
 .header li a {
 	display: block;
@@ -47,9 +49,10 @@
 	font-size: 16px;
 	color: white;
 	text-align: center;
+	padding: 16px;
 }
 
-.header li a:hover {
+.header a:hover {
 	background-color: #1E8449;
 }
 
